@@ -1,0 +1,38 @@
+@import 'color.scss';
+@import 'https://raw.githubusercontent.com/h-ibaldo/Raleway_Fixed_Numerals/master/css/rawline.css';
+
+header {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  background-color: $bleu-marine;
+  color: $blanc;
+  font-size: 50%;
+  height: 40px;
+  width: 100vw;
+  padding: 0px 10px;
+
+  * {
+    padding: 0px 10px;
+  }
+
+  img {
+    height: 33px;
+  }
+  h1 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .button {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 100%;
+    background-color: transparent;
+    padding: 0px 25px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+} 
